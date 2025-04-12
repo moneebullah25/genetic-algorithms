@@ -6,6 +6,7 @@ import time
 
 weight_limit = 3000
 
+print("Index\t|Generation\t|Optimal Solution Time\t|Fitness\t|Solution\t")
 for i in range(2, 80):
     things = knapsack.generate_things(i)
     target_value = sum([x for x in range(i+1)])
